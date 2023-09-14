@@ -9,7 +9,7 @@ begin
   )
   values(
     new.id, 
-    new.email, 
+    new.email,
     new.raw_user_meta_data->>'name',
     new.raw_user_meta_data->>'stripe_customer_id',
     new.raw_user_meta_data->>'subscription_status',
